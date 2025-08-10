@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    width: 40%;
+    padding: 1rem;
+    height: 24rem;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+}
+.card-img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.card-texto{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.card-descripcion{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.card-descripcion-imagen{
+    width: 10%;
+    height: 2rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.card-descripcion-datos{
+    display: flex;
+    flex-direction: column;
+}
+.card-nombre{
+    padding-bottom: .5rem;
+}
+.card-fecha{
+    font-size: .8rem;
+}
